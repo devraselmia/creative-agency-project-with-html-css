@@ -1,0 +1,39 @@
+@media only screen and (max-width: 575px) {
+    .container {
+        width: 480px;
+        margin: auto;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) { 
+    .container {
+        width: 488px;
+        margin: auto;
+    }
+    }
+@media (min-width: 768px) and (max-width: 991px) { 
+    .container {
+        width: 680px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992) and (max-width: 1199) { 
+    .container {
+        width: 880px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1200) and (max-width: 1399) { 
+    .container {
+        width: 1080px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 1400) { 
+    .container {
+        width: 1240px;
+        margin: auto;
+    }
+}

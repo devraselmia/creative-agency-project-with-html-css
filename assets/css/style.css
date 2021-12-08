@@ -1,0 +1,96 @@
+
+:root {
+    --primary-color: #ff6200;
+    --secondery-color: #FFC14A;
+    --font-lato:'Lato', sans-serif;
+    --font-popins:'Poppins', sans-serif;
+  }
+  .font-lato {
+    font-family: var(--font-lato);
+}
+
+    .font-popins {
+    font-family: var(--font-popins);
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* typrography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-lato);
+}
+p,
+span,
+small,
+a {
+    font-family: var(--font-popins);
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #212123;
+    font-size: 18;
+    font-weight: 600;
+    transition: ease-in-out .5s;
+}
+.menu ul li a:hover {
+    color: #fff;
+}
+
+.submenu {
+    position: absolute;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px 15px !important;
+    top:100%;
+}
+.submenu li {
+    display: block !important;
+    margin: 8px 0 !important;
+}
+.submenu li a{
+    transition: ease-in-out .5s;
+    color: #212123;
+    font-size: 15px;
+}
+.submenu li a:hover {
+    color: var(--primary-color) !important;
+}
+
+/* header */
+header {
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+.container {
+    width: 1240px;
+    margin: auto;
+}
+.logo {
+    float: left;
+}
+.menu {
+    float: right;
+}
+.slide {
+    width: 100%;
+}
